@@ -29,14 +29,18 @@ The program loads about 220,000 collision records (2014–2022) and lets you exp
 
 Requires Python 3.9 or newer. No packages to install.
 
-1. Download the two data files (see **Data sources**) into the project folder:
+1. Download the data zip from the [v1.0 release](https://github.com/luizahatlestad-hash/sd-road-safety-analyzer/releases/tag/v1.0) 
+   and unzip it into the project folder. It contains two files:
+   
    - `SWITRS Collisions Records 2014-2023.csv`
    - `2020 Census Population by Age Sex Ethnicity.csv`
-2. Run:
+
+   Both were originally downloaded from SANDAG's Open Data Portal in October 2026.
+3. Run:
    ```
    python main.py
    ```
-3. Follow the menu. Loading takes a few seconds.
+4. Follow the menu. Loading takes a few seconds.
 
 ## Project structure
 

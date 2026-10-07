@@ -1,0 +1,11 @@
+# Data files: download from SANDAG instead of storing in the repo
+*.csv
+
+# Saved reports
+*_all_roads.txt
+*_local_roads.txt
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pkl
